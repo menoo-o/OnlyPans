@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 .hero {
   position: relative;
   width: 100%;
@@ -23,6 +24,7 @@
 
 .logo-container {
   position: absolute;
+
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -38,19 +40,82 @@
 }
 
 .logo {
-  width: 500px;
-  height: 500px;
+  width: 700px;
+  height: 700px;
   object-fit: contain;
   transition: all 0.5s ease; /* Smooth resizing */
 }
 
 .logo-container.scrolled .logo {
-  width: 100px; /* Smaller size for corner */
-  height: 100px;
+  width: 200px; /* Smaller size for corner */
+  height: 200px;
 }
 
-.content{
-  width: 100%;
-  height: 800px;
-  background-color: wheat;
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fff7e6; /* Warm, inviting background color */
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.content {
+  max-width: 800px;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #ffcc66; /* Accent border matching the brand */
+  border-radius: 12px;
+  background-color: #ffffff; /* White background for contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  color: #ff884d; /* Bold, warm orange for headers */
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 1.2rem;
+  color: #444444; /* Neutral text color for readability */
+  line-height: 1.6;
+}
+
+.navbar{
+  position: fixed; /* Keeps the logo in the top-left corner during scroll */
+  top: 20px; /* Small margin from the top */
+  left: 220px; /* Small margin from the left */
+  transform: none; /* No centering transform needed for fixed positioning */
+
+}
+
+
+/* Navbar links */
+.navbar {
+  display: flex;
+  gap: 50px; /* Spacing between links */
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #444;
+  transition: color 0.2s;
+}
+
+.navbar a:hover {
+  color: #ff884d; /* Accent color on hover */
+}
+
+
+
+
+/* Hide navbar when scrolling down */
+.navbar.hidden {
+  opacity: 0;
+  visibility: hidden;
 }
