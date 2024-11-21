@@ -1,21 +1,56 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.hero-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Full screen background */
+  z-index: 1;
+}
+
+.logo-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  transition: all 0.5s ease; /* Smooth transition */
+}
+
+.logo-container.scrolled {
+  position: fixed; /* Keeps the logo in the top-left corner during scroll */
+  top: 10px; /* Small margin from the top */
+  left: 10px; /* Small margin from the left */
+  transform: none; /* No centering transform needed for fixed positioning */
+}
+
+.logo {
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+  transition: all 0.5s ease; /* Smooth resizing */
+}
+
+.logo-container.scrolled .logo {
+  width: 100px; /* Smaller size for corner */
+  height: 100px;
+}
+
+.content{
+  width: 100%;
+  height: 800px;
+  background-color: wheat;
 }
