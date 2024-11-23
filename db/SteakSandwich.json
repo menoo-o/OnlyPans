@@ -1,0 +1,121 @@
+{
+    "title": "Steak Sandwich- Cheeky Version",
+    "Ingredients": [
+        {
+            "subIngredient-title": "Base Ingredients",
+            "list":[
+                "1 large baguette", 
+                "8-10 oz skirt steak",
+                "4 slices provolone cheese"
+
+            ]
+        },
+
+        {
+            "subIngredient-title": "For the Steak Marinade",
+            "list":[
+                "2 tbsp olive oil", 
+                "2 tbsp lemon juice",
+	            "1 tbsp Worcestershire sauce",
+	            "1 tbsp soy sauce",
+	            "1-2 garlic cloves, minced",
+                "Salt and pepper, to taste"
+            ]
+
+        },
+
+        {
+            "subIngredient-title": "For the Garlic Aioli",
+            "list":[
+                "½ cup mayonnaise",
+                "1 tbsp lemon juice",
+                "1 garlic clove, grated",
+                "Salt and pepper, to taste"
+            ]
+
+        },
+
+        {
+            "subIngredient-title": "For the Caramelized Onions",
+            "list":[
+                "2 tbsp butter",
+                "2 white onions, thinly sliced",
+                "2 tbsp red wine",
+                "salt to taste"
+            ]
+        }
+    ],
+
+    "steps": [
+          {
+            "stepNumber": 1,
+            "stepTitle": "Marinate the Steak",
+            "instructions": [
+              "Mix up your marinade ingredients in a bowl 🥣:",
+              "⅓ cup olive oil 🫒",
+              "A generous splash of soy sauce 🧂",
+              "A dash or two of Worcestershire sauce",
+              "Juice of ½ lemon 🍋",
+              "1-2 grated garlic cloves 🧄",
+              "Salt and pepper to taste",
+              "Give it a little taste test 😋—tweak it if you need to.",
+              "Drop your steak in 🥩, cover it up, and let it soak up all that flavorful goodness.",
+              "If you’re waiting more than 2 hours, pop it in the fridge for a flavor spa day. 🕒"
+            ]
+          },
+          {
+            "stepNumber": 2,
+            "stepTitle": "Caramelize the Onions",
+            "instructions": [
+              "Thinly slice two white onions 🧅—because these babies are about to get sweet and golden.",
+              "Heat 2 tbsp butter 🧈 in a pan over medium heat. Add your onions and a pinch of salt.",
+              "Cover and let them cook slowly while you stir occasionally—like giving them little love pats. 🥄",
+              "After about 45 minutes ⏳, add a splash of red wine 🍷 to deglaze.",
+              "Cook until they’re soft, golden, and oh-so-sweet."
+            ]
+          },
+          {
+            "stepNumber": 3,
+            "stepTitle": "Whip Up the Aioli",
+            "instructions": [
+              "Combine these ingredients in a bowl 🥣:",
+              "½ cup mayonnaise 🥪",
+              "1 tbsp lemon juice 🍋",
+              "1 grated garlic clove 🧄",
+              "Salt and pepper to taste",
+              "Stir and taste as you go 👅. Make it as garlicky or tangy as your heart desires. 💖"
+            ]
+          },
+          {
+            "stepNumber": 4,
+            "stepTitle": "Cook the Steak",
+            "instructions": [
+              "Heat up a cast-iron skillet to medium-high 🔥—it’s time to sizzle!",
+              "Sear the steak 🥩 for 3-4 minutes on each side until it’s beautifully crusted.",
+              "Let it rest for 5 minutes 🕒 because patience = juicy steak.",
+              "Slice it thinly against the grain for maximum tenderness. 🔪"
+            ]
+          },
+          {
+            "stepNumber": 5,
+            "stepTitle": "Assemble the Sandwich",
+            "instructions": [
+              "Grab your baguette 🥖 and slice it in half lengthwise—show off those knife skills!",
+              "On one side, spread a layer of garlic aioli 🧄.",
+              "Layer on the sliced steak 🥩 and provolone cheese 🧀. Broil it in the oven for a few minutes until the cheese is melted and gooey. 🔥",
+              "Top it off with caramelized onions 🧅.",
+              "On the other half of the baguette, spread more aioli and add a handful of arugula tossed in olive oil and lemon juice. 🥗"
+            ]
+          },
+          {
+            "stepNumber": 6,
+            "stepTitle": "Devour the Masterpiece",
+            "instructions": [
+              "Put the sandwich together, slice into portions, and take a BIG bite.",
+              "Warning: it’s juicy, cheesy, and downright irresistible. 😍 Stay hongry, babe! 🍴"
+            ]
+          }
+        ]
+      }
+      
+    

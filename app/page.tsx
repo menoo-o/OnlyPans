@@ -22,13 +22,13 @@ export default function Home() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-  
+
   return (
     <>
       <div className="hero">
         {/* Hero image */}
         <Image 
-          src="/herow.png"
+          src="/cover.png"
           className="hero-img"
           width={1500}
           height={725}
